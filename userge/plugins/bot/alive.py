@@ -239,7 +239,7 @@ class Bot_Alive:
 
   <b>{Bot_Alive._get_mode()}   |   {userge.uptime}</b>
 """
-        return alive_info
+        return alive_info_
 
     @staticmethod
     def _get_mode() -> str:
